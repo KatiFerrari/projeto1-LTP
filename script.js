@@ -56,10 +56,10 @@ Mostrar_produtos_destaque(){
 }
 
 }
-let produto = new Produto("Garrafa Stanley","GBravin","carrega liquidos","R$200")
+let produto = new Produto("Caderno","Constelação","360 folhas","R$150")
 console.log(produto.Mostrar_produtos())
  
-let produtodestaque = new ProdutoDestaque("Garrafa "," Bravin"," carrega liquidos ", "R$:30","https://s2.glbimg.com/ZHcY8qtdiU1f837RYKPLd7PzZmE=/166x0:563x430/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/X/A/Cq4NMnT7GuABc7PRxGbw/sem-titulo-1.jpg")
+let produtodestaque = new ProdutoDestaque("Caderno ","Constelação"," 380 folhas ", "R$:123","https://images.tcdn.com.br/img/img_prod/969839/caderno_magic_signos_435_1_42d32257bf524ea51f1b05efbd4b7222.png")
 console.log(produtodestaque.Mostrar_produtos_destaque())
 
 const div = document.getElementById("destaque")
